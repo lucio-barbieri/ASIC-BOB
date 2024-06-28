@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.2-8.0.2-0~ubuntu20.04.1"
+    },
+    "CreationDate": "2024-06-23T02:13:06-03:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "asicBOB",
+      "GUID": "61736963-424f-4422-9e6b-696361645f70",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 100.1,
+      "Y": 89.31
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.522,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "asicBOB-F_Cu_SIG.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-In1_Cu_GND.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-In2_Cu_SIG.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-In3_Cu_PWR.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-In4_Cu_GND.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-B_Cu_SIG.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "asicBOB-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "asicBOB-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "asicBOB-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu_SIG"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.203,
+      "Material": "FR4 7628",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "F.Cu_SIG/In1.Cu_GND",
+      "Notes": "Type: dielectric layer 1 (from F.Cu_SIG to In1.Cu_GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "In1.Cu_GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.25,
+      "Material": "FR4",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu_GND/In2.Cu_SIG",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu_GND to In2.Cu_SIG)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "In2.Cu_SIG"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.406,
+      "Material": "FR4 2x7628",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu_SIG/In3.Cu_PWR",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu_SIG to In3.Cu_PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "In3.Cu_PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.25,
+      "Material": "FR4",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "In3.Cu_PWR/In4.Cu_GND",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu_PWR to In4.Cu_GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.03,
+      "Name": "In4.Cu_GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.203,
+      "Material": "FR4 7628",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "In4.Cu_GND/B.Cu_SIG",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu_GND to B.Cu_SIG)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu_SIG"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
